@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDEB88D2A5401BC0016AECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEB88C2A5401BC0016AECA /* AppDelegate.swift */; };
+		ACDEB88F2A5401BC0016AECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEB88E2A5401BC0016AECA /* SceneDelegate.swift */; };
+		ACDEB8912A5401BC0016AECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEB8902A5401BC0016AECA /* ViewController.swift */; };
+		ACDEB8942A5401BC0016AECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDEB8922A5401BC0016AECA /* Main.storyboard */; };
+		ACDEB8962A5401BD0016AECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDEB8952A5401BD0016AECA /* Assets.xcassets */; };
+		ACDEB8992A5401BD0016AECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDEB8972A5401BD0016AECA /* LaunchScreen.storyboard */; };
+		ACDEB8A42A5401BD0016AECA /* Tab_Bar_CalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEB8A32A5401BD0016AECA /* Tab_Bar_CalismasiTests.swift */; };
+		ACDEB8AE2A5401BD0016AECA /* Tab_Bar_CalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEB8AD2A5401BD0016AECA /* Tab_Bar_CalismasiUITests.swift */; };
+		ACDEB8B02A5401BD0016AECA /* Tab_Bar_CalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEB8AF2A5401BD0016AECA /* Tab_Bar_CalismasiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDEB8A02A5401BD0016AECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDEB8812A5401BC0016AECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDEB8882A5401BC0016AECA;
+			remoteInfo = "Tab Bar Calismasi";
+		};
+		ACDEB8AA2A5401BD0016AECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDEB8812A5401BC0016AECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDEB8882A5401BC0016AECA;
+			remoteInfo = "Tab Bar Calismasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACDEB8892A5401BC0016AECA /* Tab Bar Calismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Bar Calismasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDEB88C2A5401BC0016AECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDEB88E2A5401BC0016AECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACDEB8902A5401BC0016AECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDEB8932A5401BC0016AECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDEB8952A5401BD0016AECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDEB8982A5401BD0016AECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDEB89A2A5401BD0016AECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDEB89F2A5401BD0016AECA /* Tab Bar CalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab Bar CalismasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDEB8A32A5401BD0016AECA /* Tab_Bar_CalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_Bar_CalismasiTests.swift; sourceTree = "<group>"; };
+		ACDEB8A92A5401BD0016AECA /* Tab Bar CalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab Bar CalismasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDEB8AD2A5401BD0016AECA /* Tab_Bar_CalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_Bar_CalismasiUITests.swift; sourceTree = "<group>"; };
+		ACDEB8AF2A5401BD0016AECA /* Tab_Bar_CalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_Bar_CalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDEB8862A5401BC0016AECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDEB89C2A5401BD0016AECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDEB8A62A5401BD0016AECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDEB8802A5401BC0016AECA = {
+			isa = PBXGroup;
+			children = (
+				ACDEB88B2A5401BC0016AECA /* Tab Bar Calismasi */,
+				ACDEB8A22A5401BD0016AECA /* Tab Bar CalismasiTests */,
+				ACDEB8AC2A5401BD0016AECA /* Tab Bar CalismasiUITests */,
+				ACDEB88A2A5401BC0016AECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDEB88A2A5401BC0016AECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDEB8892A5401BC0016AECA /* Tab Bar Calismasi.app */,
+				ACDEB89F2A5401BD0016AECA /* Tab Bar CalismasiTests.xctest */,
+				ACDEB8A92A5401BD0016AECA /* Tab Bar CalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDEB88B2A5401BC0016AECA /* Tab Bar Calismasi */ = {
+			isa = PBXGroup;
+			children = (
+				ACDEB88C2A5401BC0016AECA /* AppDelegate.swift */,
+				ACDEB88E2A5401BC0016AECA /* SceneDelegate.swift */,
+				ACDEB8902A5401BC0016AECA /* ViewController.swift */,
+				ACDEB8922A5401BC0016AECA /* Main.storyboard */,
+				ACDEB8952A5401BD0016AECA /* Assets.xcassets */,
+				ACDEB8972A5401BD0016AECA /* LaunchScreen.storyboard */,
+				ACDEB89A2A5401BD0016AECA /* Info.plist */,
+			);
+			path = "Tab Bar Calismasi";
+			sourceTree = "<group>";
+		};
+		ACDEB8A22A5401BD0016AECA /* Tab Bar CalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDEB8A32A5401BD0016AECA /* Tab_Bar_CalismasiTests.swift */,
+			);
+			path = "Tab Bar CalismasiTests";
+			sourceTree = "<group>";
+		};
+		ACDEB8AC2A5401BD0016AECA /* Tab Bar CalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDEB8AD2A5401BD0016AECA /* Tab_Bar_CalismasiUITests.swift */,
+				ACDEB8AF2A5401BD0016AECA /* Tab_Bar_CalismasiUITestsLaunchTests.swift */,
+			);
+			path = "Tab Bar CalismasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDEB8882A5401BC0016AECA /* Tab Bar Calismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDEB8B32A5401BD0016AECA /* Build configuration list for PBXNativeTarget "Tab Bar Calismasi" */;
+			buildPhases = (
+				ACDEB8852A5401BC0016AECA /* Sources */,
+				ACDEB8862A5401BC0016AECA /* Frameworks */,
+				ACDEB8872A5401BC0016AECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tab Bar Calismasi";
+			productName = "Tab Bar Calismasi";
+			productReference = ACDEB8892A5401BC0016AECA /* Tab Bar Calismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDEB89E2A5401BD0016AECA /* Tab Bar CalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDEB8B62A5401BD0016AECA /* Build configuration list for PBXNativeTarget "Tab Bar CalismasiTests" */;
+			buildPhases = (
+				ACDEB89B2A5401BD0016AECA /* Sources */,
+				ACDEB89C2A5401BD0016AECA /* Frameworks */,
+				ACDEB89D2A5401BD0016AECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDEB8A12A5401BD0016AECA /* PBXTargetDependency */,
+			);
+			name = "Tab Bar CalismasiTests";
+			productName = "Tab Bar CalismasiTests";
+			productReference = ACDEB89F2A5401BD0016AECA /* Tab Bar CalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDEB8A82A5401BD0016AECA /* Tab Bar CalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDEB8B92A5401BD0016AECA /* Build configuration list for PBXNativeTarget "Tab Bar CalismasiUITests" */;
+			buildPhases = (
+				ACDEB8A52A5401BD0016AECA /* Sources */,
+				ACDEB8A62A5401BD0016AECA /* Frameworks */,
+				ACDEB8A72A5401BD0016AECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDEB8AB2A5401BD0016AECA /* PBXTargetDependency */,
+			);
+			name = "Tab Bar CalismasiUITests";
+			productName = "Tab Bar CalismasiUITests";
+			productReference = ACDEB8A92A5401BD0016AECA /* Tab Bar CalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDEB8812A5401BC0016AECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ACDEB8882A5401BC0016AECA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ACDEB89E2A5401BD0016AECA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACDEB8882A5401BC0016AECA;
+					};
+					ACDEB8A82A5401BD0016AECA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACDEB8882A5401BC0016AECA;
+					};
+				};
+			};
+			buildConfigurationList = ACDEB8842A5401BC0016AECA /* Build configuration list for PBXProject "Tab Bar Calismasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDEB8802A5401BC0016AECA;
+			productRefGroup = ACDEB88A2A5401BC0016AECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDEB8882A5401BC0016AECA /* Tab Bar Calismasi */,
+				ACDEB89E2A5401BD0016AECA /* Tab Bar CalismasiTests */,
+				ACDEB8A82A5401BD0016AECA /* Tab Bar CalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDEB8872A5401BC0016AECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDEB8992A5401BD0016AECA /* LaunchScreen.storyboard in Resources */,
+				ACDEB8962A5401BD0016AECA /* Assets.xcassets in Resources */,
+				ACDEB8942A5401BC0016AECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDEB89D2A5401BD0016AECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDEB8A72A5401BD0016AECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDEB8852A5401BC0016AECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDEB8912A5401BC0016AECA /* ViewController.swift in Sources */,
+				ACDEB88D2A5401BC0016AECA /* AppDelegate.swift in Sources */,
+				ACDEB88F2A5401BC0016AECA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDEB89B2A5401BD0016AECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDEB8A42A5401BD0016AECA /* Tab_Bar_CalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDEB8A52A5401BD0016AECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDEB8AE2A5401BD0016AECA /* Tab_Bar_CalismasiUITests.swift in Sources */,
+				ACDEB8B02A5401BD0016AECA /* Tab_Bar_CalismasiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDEB8A12A5401BD0016AECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDEB8882A5401BC0016AECA /* Tab Bar Calismasi */;
+			targetProxy = ACDEB8A02A5401BD0016AECA /* PBXContainerItemProxy */;
+		};
+		ACDEB8AB2A5401BD0016AECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDEB8882A5401BC0016AECA /* Tab Bar Calismasi */;
+			targetProxy = ACDEB8AA2A5401BD0016AECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACDEB8922A5401BC0016AECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDEB8932A5401BC0016AECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDEB8972A5401BD0016AECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDEB8982A5401BD0016AECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDEB8B12A5401BD0016AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDEB8B22A5401BD0016AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDEB8B42A5401BD0016AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Bar Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Tab-Bar-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDEB8B52A5401BD0016AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tab Bar Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Tab-Bar-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACDEB8B72A5401BD0016AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Tab-Bar-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tab Bar Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tab Bar Calismasi";
+			};
+			name = Debug;
+		};
+		ACDEB8B82A5401BD0016AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Tab-Bar-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tab Bar Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tab Bar Calismasi";
+			};
+			name = Release;
+		};
+		ACDEB8BA2A5401BD0016AECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Tab-Bar-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tab Bar Calismasi";
+			};
+			name = Debug;
+		};
+		ACDEB8BB2A5401BD0016AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Tab-Bar-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tab Bar Calismasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDEB8842A5401BC0016AECA /* Build configuration list for PBXProject "Tab Bar Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDEB8B12A5401BD0016AECA /* Debug */,
+				ACDEB8B22A5401BD0016AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDEB8B32A5401BD0016AECA /* Build configuration list for PBXNativeTarget "Tab Bar Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDEB8B42A5401BD0016AECA /* Debug */,
+				ACDEB8B52A5401BD0016AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDEB8B62A5401BD0016AECA /* Build configuration list for PBXNativeTarget "Tab Bar CalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDEB8B72A5401BD0016AECA /* Debug */,
+				ACDEB8B82A5401BD0016AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDEB8B92A5401BD0016AECA /* Build configuration list for PBXNativeTarget "Tab Bar CalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDEB8BA2A5401BD0016AECA /* Debug */,
+				ACDEB8BB2A5401BD0016AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDEB8812A5401BC0016AECA /* Project object */;
+}
