@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE71CE92A56B26900BC4D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE71CE82A56B26900BC4D0A /* AppDelegate.swift */; };
+		ACE71CEB2A56B26900BC4D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE71CEA2A56B26900BC4D0A /* SceneDelegate.swift */; };
+		ACE71CED2A56B26900BC4D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE71CEC2A56B26900BC4D0A /* ViewController.swift */; };
+		ACE71CF02A56B26900BC4D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE71CEE2A56B26900BC4D0A /* Main.storyboard */; };
+		ACE71CF22A56B26A00BC4D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE71CF12A56B26A00BC4D0A /* Assets.xcassets */; };
+		ACE71CF52A56B26A00BC4D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE71CF32A56B26A00BC4D0A /* LaunchScreen.storyboard */; };
+		ACE71D002A56B26A00BC4D0A /* iOS_Yasam_DongusuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE71CFF2A56B26A00BC4D0A /* iOS_Yasam_DongusuTests.swift */; };
+		ACE71D0A2A56B26A00BC4D0A /* iOS_Yasam_DongusuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE71D092A56B26A00BC4D0A /* iOS_Yasam_DongusuUITests.swift */; };
+		ACE71D0C2A56B26A00BC4D0A /* iOS_Yasam_DongusuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE71D0B2A56B26A00BC4D0A /* iOS_Yasam_DongusuUITestsLaunchTests.swift */; };
+		ACE71D192A56B65100BC4D0A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE71D182A56B65100BC4D0A /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE71CFC2A56B26A00BC4D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE71CDD2A56B26900BC4D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE71CE42A56B26900BC4D0A;
+			remoteInfo = "iOS Yasam Dongusu";
+		};
+		ACE71D062A56B26A00BC4D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE71CDD2A56B26900BC4D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE71CE42A56B26900BC4D0A;
+			remoteInfo = "iOS Yasam Dongusu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE71CE52A56B26900BC4D0A /* iOS Yasam Dongusu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Yasam Dongusu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE71CE82A56B26900BC4D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE71CEA2A56B26900BC4D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACE71CEC2A56B26900BC4D0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE71CEF2A56B26900BC4D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE71CF12A56B26A00BC4D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE71CF42A56B26A00BC4D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE71CF62A56B26A00BC4D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE71CFB2A56B26A00BC4D0A /* iOS Yasam DongusuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Yasam DongusuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE71CFF2A56B26A00BC4D0A /* iOS_Yasam_DongusuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Yasam_DongusuTests.swift; sourceTree = "<group>"; };
+		ACE71D052A56B26A00BC4D0A /* iOS Yasam DongusuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Yasam DongusuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE71D092A56B26A00BC4D0A /* iOS_Yasam_DongusuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Yasam_DongusuUITests.swift; sourceTree = "<group>"; };
+		ACE71D0B2A56B26A00BC4D0A /* iOS_Yasam_DongusuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Yasam_DongusuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACE71D182A56B65100BC4D0A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE71CE22A56B26900BC4D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE71CF82A56B26A00BC4D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE71D022A56B26A00BC4D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE71CDC2A56B26900BC4D0A = {
+			isa = PBXGroup;
+			children = (
+				ACE71CE72A56B26900BC4D0A /* iOS Yasam Dongusu */,
+				ACE71CFE2A56B26A00BC4D0A /* iOS Yasam DongusuTests */,
+				ACE71D082A56B26A00BC4D0A /* iOS Yasam DongusuUITests */,
+				ACE71CE62A56B26900BC4D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE71CE62A56B26900BC4D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE71CE52A56B26900BC4D0A /* iOS Yasam Dongusu.app */,
+				ACE71CFB2A56B26A00BC4D0A /* iOS Yasam DongusuTests.xctest */,
+				ACE71D052A56B26A00BC4D0A /* iOS Yasam DongusuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE71CE72A56B26900BC4D0A /* iOS Yasam Dongusu */ = {
+			isa = PBXGroup;
+			children = (
+				ACE71CE82A56B26900BC4D0A /* AppDelegate.swift */,
+				ACE71CEA2A56B26900BC4D0A /* SceneDelegate.swift */,
+				ACE71CEC2A56B26900BC4D0A /* ViewController.swift */,
+				ACE71D182A56B65100BC4D0A /* ViewController2.swift */,
+				ACE71CEE2A56B26900BC4D0A /* Main.storyboard */,
+				ACE71CF12A56B26A00BC4D0A /* Assets.xcassets */,
+				ACE71CF32A56B26A00BC4D0A /* LaunchScreen.storyboard */,
+				ACE71CF62A56B26A00BC4D0A /* Info.plist */,
+			);
+			path = "iOS Yasam Dongusu";
+			sourceTree = "<group>";
+		};
+		ACE71CFE2A56B26A00BC4D0A /* iOS Yasam DongusuTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE71CFF2A56B26A00BC4D0A /* iOS_Yasam_DongusuTests.swift */,
+			);
+			path = "iOS Yasam DongusuTests";
+			sourceTree = "<group>";
+		};
+		ACE71D082A56B26A00BC4D0A /* iOS Yasam DongusuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE71D092A56B26A00BC4D0A /* iOS_Yasam_DongusuUITests.swift */,
+				ACE71D0B2A56B26A00BC4D0A /* iOS_Yasam_DongusuUITestsLaunchTests.swift */,
+			);
+			path = "iOS Yasam DongusuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE71CE42A56B26900BC4D0A /* iOS Yasam Dongusu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE71D0F2A56B26A00BC4D0A /* Build configuration list for PBXNativeTarget "iOS Yasam Dongusu" */;
+			buildPhases = (
+				ACE71CE12A56B26900BC4D0A /* Sources */,
+				ACE71CE22A56B26900BC4D0A /* Frameworks */,
+				ACE71CE32A56B26900BC4D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Yasam Dongusu";
+			productName = "iOS Yasam Dongusu";
+			productReference = ACE71CE52A56B26900BC4D0A /* iOS Yasam Dongusu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE71CFA2A56B26A00BC4D0A /* iOS Yasam DongusuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE71D122A56B26A00BC4D0A /* Build configuration list for PBXNativeTarget "iOS Yasam DongusuTests" */;
+			buildPhases = (
+				ACE71CF72A56B26A00BC4D0A /* Sources */,
+				ACE71CF82A56B26A00BC4D0A /* Frameworks */,
+				ACE71CF92A56B26A00BC4D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE71CFD2A56B26A00BC4D0A /* PBXTargetDependency */,
+			);
+			name = "iOS Yasam DongusuTests";
+			productName = "iOS Yasam DongusuTests";
+			productReference = ACE71CFB2A56B26A00BC4D0A /* iOS Yasam DongusuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACE71D042A56B26A00BC4D0A /* iOS Yasam DongusuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE71D152A56B26A00BC4D0A /* Build configuration list for PBXNativeTarget "iOS Yasam DongusuUITests" */;
+			buildPhases = (
+				ACE71D012A56B26A00BC4D0A /* Sources */,
+				ACE71D022A56B26A00BC4D0A /* Frameworks */,
+				ACE71D032A56B26A00BC4D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE71D072A56B26A00BC4D0A /* PBXTargetDependency */,
+			);
+			name = "iOS Yasam DongusuUITests";
+			productName = "iOS Yasam DongusuUITests";
+			productReference = ACE71D052A56B26A00BC4D0A /* iOS Yasam DongusuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE71CDD2A56B26900BC4D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ACE71CE42A56B26900BC4D0A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ACE71CFA2A56B26A00BC4D0A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACE71CE42A56B26900BC4D0A;
+					};
+					ACE71D042A56B26A00BC4D0A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ACE71CE42A56B26900BC4D0A;
+					};
+				};
+			};
+			buildConfigurationList = ACE71CE02A56B26900BC4D0A /* Build configuration list for PBXProject "iOS Yasam Dongusu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE71CDC2A56B26900BC4D0A;
+			productRefGroup = ACE71CE62A56B26900BC4D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE71CE42A56B26900BC4D0A /* iOS Yasam Dongusu */,
+				ACE71CFA2A56B26A00BC4D0A /* iOS Yasam DongusuTests */,
+				ACE71D042A56B26A00BC4D0A /* iOS Yasam DongusuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE71CE32A56B26900BC4D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE71CF52A56B26A00BC4D0A /* LaunchScreen.storyboard in Resources */,
+				ACE71CF22A56B26A00BC4D0A /* Assets.xcassets in Resources */,
+				ACE71CF02A56B26900BC4D0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE71CF92A56B26A00BC4D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE71D032A56B26A00BC4D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE71CE12A56B26900BC4D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE71CED2A56B26900BC4D0A /* ViewController.swift in Sources */,
+				ACE71D192A56B65100BC4D0A /* ViewController2.swift in Sources */,
+				ACE71CE92A56B26900BC4D0A /* AppDelegate.swift in Sources */,
+				ACE71CEB2A56B26900BC4D0A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE71CF72A56B26A00BC4D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE71D002A56B26A00BC4D0A /* iOS_Yasam_DongusuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE71D012A56B26A00BC4D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE71D0C2A56B26A00BC4D0A /* iOS_Yasam_DongusuUITestsLaunchTests.swift in Sources */,
+				ACE71D0A2A56B26A00BC4D0A /* iOS_Yasam_DongusuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE71CFD2A56B26A00BC4D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE71CE42A56B26900BC4D0A /* iOS Yasam Dongusu */;
+			targetProxy = ACE71CFC2A56B26A00BC4D0A /* PBXContainerItemProxy */;
+		};
+		ACE71D072A56B26A00BC4D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE71CE42A56B26900BC4D0A /* iOS Yasam Dongusu */;
+			targetProxy = ACE71D062A56B26A00BC4D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE71CEE2A56B26900BC4D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE71CEF2A56B26900BC4D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE71CF32A56B26A00BC4D0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE71CF42A56B26A00BC4D0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE71D0D2A56B26A00BC4D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE71D0E2A56B26A00BC4D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE71D102A56B26A00BC4D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS Yasam Dongusu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.iOS-Yasam-Dongusu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE71D112A56B26A00BC4D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS Yasam Dongusu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.iOS-Yasam-Dongusu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACE71D132A56B26A00BC4D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.iOS-Yasam-DongusuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Yasam Dongusu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Yasam Dongusu";
+			};
+			name = Debug;
+		};
+		ACE71D142A56B26A00BC4D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.iOS-Yasam-DongusuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Yasam Dongusu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Yasam Dongusu";
+			};
+			name = Release;
+		};
+		ACE71D162A56B26A00BC4D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.iOS-Yasam-DongusuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Yasam Dongusu";
+			};
+			name = Debug;
+		};
+		ACE71D172A56B26A00BC4D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.iOS-Yasam-DongusuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Yasam Dongusu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE71CE02A56B26900BC4D0A /* Build configuration list for PBXProject "iOS Yasam Dongusu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE71D0D2A56B26A00BC4D0A /* Debug */,
+				ACE71D0E2A56B26A00BC4D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE71D0F2A56B26A00BC4D0A /* Build configuration list for PBXNativeTarget "iOS Yasam Dongusu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE71D102A56B26A00BC4D0A /* Debug */,
+				ACE71D112A56B26A00BC4D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE71D122A56B26A00BC4D0A /* Build configuration list for PBXNativeTarget "iOS Yasam DongusuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE71D132A56B26A00BC4D0A /* Debug */,
+				ACE71D142A56B26A00BC4D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE71D152A56B26A00BC4D0A /* Build configuration list for PBXNativeTarget "iOS Yasam DongusuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE71D162A56B26A00BC4D0A /* Debug */,
+				ACE71D172A56B26A00BC4D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE71CDD2A56B26900BC4D0A /* Project object */;
+}
