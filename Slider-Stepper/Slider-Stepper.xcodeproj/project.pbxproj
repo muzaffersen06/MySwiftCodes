@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC94CADF2A599C74005DD298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94CADE2A599C74005DD298 /* AppDelegate.swift */; };
+		AC94CAE12A599C74005DD298 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94CAE02A599C74005DD298 /* SceneDelegate.swift */; };
+		AC94CAE32A599C74005DD298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94CAE22A599C74005DD298 /* ViewController.swift */; };
+		AC94CAE62A599C74005DD298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94CAE42A599C74005DD298 /* Main.storyboard */; };
+		AC94CAE82A599C75005DD298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC94CAE72A599C75005DD298 /* Assets.xcassets */; };
+		AC94CAEB2A599C75005DD298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94CAE92A599C75005DD298 /* LaunchScreen.storyboard */; };
+		AC94CAF62A599C75005DD298 /* Slider_StepperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94CAF52A599C75005DD298 /* Slider_StepperTests.swift */; };
+		AC94CB002A599C75005DD298 /* Slider_StepperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94CAFF2A599C75005DD298 /* Slider_StepperUITests.swift */; };
+		AC94CB022A599C75005DD298 /* Slider_StepperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94CB012A599C75005DD298 /* Slider_StepperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC94CAF22A599C75005DD298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC94CAD32A599C74005DD298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC94CADA2A599C74005DD298;
+			remoteInfo = "Slider-Stepper";
+		};
+		AC94CAFC2A599C75005DD298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC94CAD32A599C74005DD298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC94CADA2A599C74005DD298;
+			remoteInfo = "Slider-Stepper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC94CADB2A599C74005DD298 /* Slider-Stepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider-Stepper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94CADE2A599C74005DD298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC94CAE02A599C74005DD298 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC94CAE22A599C74005DD298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC94CAE52A599C74005DD298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC94CAE72A599C75005DD298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC94CAEA2A599C75005DD298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC94CAEC2A599C75005DD298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC94CAF12A599C75005DD298 /* Slider-StepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slider-StepperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94CAF52A599C75005DD298 /* Slider_StepperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_StepperTests.swift; sourceTree = "<group>"; };
+		AC94CAFB2A599C75005DD298 /* Slider-StepperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slider-StepperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94CAFF2A599C75005DD298 /* Slider_StepperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_StepperUITests.swift; sourceTree = "<group>"; };
+		AC94CB012A599C75005DD298 /* Slider_StepperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_StepperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC94CAD82A599C74005DD298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94CAEE2A599C75005DD298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94CAF82A599C75005DD298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC94CAD22A599C74005DD298 = {
+			isa = PBXGroup;
+			children = (
+				AC94CADD2A599C74005DD298 /* Slider-Stepper */,
+				AC94CAF42A599C75005DD298 /* Slider-StepperTests */,
+				AC94CAFE2A599C75005DD298 /* Slider-StepperUITests */,
+				AC94CADC2A599C74005DD298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC94CADC2A599C74005DD298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC94CADB2A599C74005DD298 /* Slider-Stepper.app */,
+				AC94CAF12A599C75005DD298 /* Slider-StepperTests.xctest */,
+				AC94CAFB2A599C75005DD298 /* Slider-StepperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC94CADD2A599C74005DD298 /* Slider-Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				AC94CADE2A599C74005DD298 /* AppDelegate.swift */,
+				AC94CAE02A599C74005DD298 /* SceneDelegate.swift */,
+				AC94CAE22A599C74005DD298 /* ViewController.swift */,
+				AC94CAE42A599C74005DD298 /* Main.storyboard */,
+				AC94CAE72A599C75005DD298 /* Assets.xcassets */,
+				AC94CAE92A599C75005DD298 /* LaunchScreen.storyboard */,
+				AC94CAEC2A599C75005DD298 /* Info.plist */,
+			);
+			path = "Slider-Stepper";
+			sourceTree = "<group>";
+		};
+		AC94CAF42A599C75005DD298 /* Slider-StepperTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC94CAF52A599C75005DD298 /* Slider_StepperTests.swift */,
+			);
+			path = "Slider-StepperTests";
+			sourceTree = "<group>";
+		};
+		AC94CAFE2A599C75005DD298 /* Slider-StepperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC94CAFF2A599C75005DD298 /* Slider_StepperUITests.swift */,
+				AC94CB012A599C75005DD298 /* Slider_StepperUITestsLaunchTests.swift */,
+			);
+			path = "Slider-StepperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC94CADA2A599C74005DD298 /* Slider-Stepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC94CB052A599C75005DD298 /* Build configuration list for PBXNativeTarget "Slider-Stepper" */;
+			buildPhases = (
+				AC94CAD72A599C74005DD298 /* Sources */,
+				AC94CAD82A599C74005DD298 /* Frameworks */,
+				AC94CAD92A599C74005DD298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slider-Stepper";
+			productName = "Slider-Stepper";
+			productReference = AC94CADB2A599C74005DD298 /* Slider-Stepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC94CAF02A599C75005DD298 /* Slider-StepperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC94CB082A599C75005DD298 /* Build configuration list for PBXNativeTarget "Slider-StepperTests" */;
+			buildPhases = (
+				AC94CAED2A599C75005DD298 /* Sources */,
+				AC94CAEE2A599C75005DD298 /* Frameworks */,
+				AC94CAEF2A599C75005DD298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC94CAF32A599C75005DD298 /* PBXTargetDependency */,
+			);
+			name = "Slider-StepperTests";
+			productName = "Slider-StepperTests";
+			productReference = AC94CAF12A599C75005DD298 /* Slider-StepperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC94CAFA2A599C75005DD298 /* Slider-StepperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC94CB0B2A599C75005DD298 /* Build configuration list for PBXNativeTarget "Slider-StepperUITests" */;
+			buildPhases = (
+				AC94CAF72A599C75005DD298 /* Sources */,
+				AC94CAF82A599C75005DD298 /* Frameworks */,
+				AC94CAF92A599C75005DD298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC94CAFD2A599C75005DD298 /* PBXTargetDependency */,
+			);
+			name = "Slider-StepperUITests";
+			productName = "Slider-StepperUITests";
+			productReference = AC94CAFB2A599C75005DD298 /* Slider-StepperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC94CAD32A599C74005DD298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC94CADA2A599C74005DD298 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AC94CAF02A599C75005DD298 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AC94CADA2A599C74005DD298;
+					};
+					AC94CAFA2A599C75005DD298 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AC94CADA2A599C74005DD298;
+					};
+				};
+			};
+			buildConfigurationList = AC94CAD62A599C74005DD298 /* Build configuration list for PBXProject "Slider-Stepper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC94CAD22A599C74005DD298;
+			productRefGroup = AC94CADC2A599C74005DD298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC94CADA2A599C74005DD298 /* Slider-Stepper */,
+				AC94CAF02A599C75005DD298 /* Slider-StepperTests */,
+				AC94CAFA2A599C75005DD298 /* Slider-StepperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC94CAD92A599C74005DD298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94CAEB2A599C75005DD298 /* LaunchScreen.storyboard in Resources */,
+				AC94CAE82A599C75005DD298 /* Assets.xcassets in Resources */,
+				AC94CAE62A599C74005DD298 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94CAEF2A599C75005DD298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94CAF92A599C75005DD298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC94CAD72A599C74005DD298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94CAE32A599C74005DD298 /* ViewController.swift in Sources */,
+				AC94CADF2A599C74005DD298 /* AppDelegate.swift in Sources */,
+				AC94CAE12A599C74005DD298 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94CAED2A599C75005DD298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94CAF62A599C75005DD298 /* Slider_StepperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94CAF72A599C75005DD298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94CB002A599C75005DD298 /* Slider_StepperUITests.swift in Sources */,
+				AC94CB022A599C75005DD298 /* Slider_StepperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC94CAF32A599C75005DD298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC94CADA2A599C74005DD298 /* Slider-Stepper */;
+			targetProxy = AC94CAF22A599C75005DD298 /* PBXContainerItemProxy */;
+		};
+		AC94CAFD2A599C75005DD298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC94CADA2A599C74005DD298 /* Slider-Stepper */;
+			targetProxy = AC94CAFC2A599C75005DD298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC94CAE42A599C74005DD298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC94CAE52A599C74005DD298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC94CAE92A599C75005DD298 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC94CAEA2A599C75005DD298 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC94CB032A599C75005DD298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC94CB042A599C75005DD298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC94CB062A599C75005DD298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slider-Stepper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Slider-Stepper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC94CB072A599C75005DD298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slider-Stepper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Slider-Stepper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC94CB092A599C75005DD298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Slider-StepperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slider-Stepper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slider-Stepper";
+			};
+			name = Debug;
+		};
+		AC94CB0A2A599C75005DD298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Slider-StepperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slider-Stepper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slider-Stepper";
+			};
+			name = Release;
+		};
+		AC94CB0C2A599C75005DD298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Slider-StepperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slider-Stepper";
+			};
+			name = Debug;
+		};
+		AC94CB0D2A599C75005DD298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DG9MHMN6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbaransen.Slider-StepperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slider-Stepper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC94CAD62A599C74005DD298 /* Build configuration list for PBXProject "Slider-Stepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94CB032A599C75005DD298 /* Debug */,
+				AC94CB042A599C75005DD298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC94CB052A599C75005DD298 /* Build configuration list for PBXNativeTarget "Slider-Stepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94CB062A599C75005DD298 /* Debug */,
+				AC94CB072A599C75005DD298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC94CB082A599C75005DD298 /* Build configuration list for PBXNativeTarget "Slider-StepperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94CB092A599C75005DD298 /* Debug */,
+				AC94CB0A2A599C75005DD298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC94CB0B2A599C75005DD298 /* Build configuration list for PBXNativeTarget "Slider-StepperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94CB0C2A599C75005DD298 /* Debug */,
+				AC94CB0D2A599C75005DD298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC94CAD32A599C74005DD298 /* Project object */;
+}
